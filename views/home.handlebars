@@ -1,0 +1,30 @@
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h1>What Coffee is Up?</h1>
+  </div>
+  
+  <div class="row text-center">
+    <h2>
+      <span class="label label-primary">{{ name }}</span>
+      <span class="label label-primary">{{ time }}</span>
+    </h2>
+  </div>
+
+  <form class="row" id="coffeeForm">
+    <div class="row">
+      <div class="form-group col-sm-6">
+        <label class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="coffee">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-sm-offset-3">
+        <button form="coffeeForm" type="submit" class="btn btn-lg btn-success">Change Da Pot</button>
+      </div>
+    </div>
+  </form>
+</div>
+

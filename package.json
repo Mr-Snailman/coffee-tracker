@@ -1,0 +1,15 @@
+{
+  "name": "coffee-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts":{
+    "prestart":"npm install",
+    "start":"node server.js"
+  },
+  "dependencies":{
+    "bootstrap":"latest",
+    "express":"latest",
+    "express-handlebars":"latest",
+    "mongodb":"latest"
+  }
+}
