@@ -7,9 +7,8 @@
     "start":"node server.js"
   },
   "dependencies":{
-    "bootstrap":"latest",
-    "express":"latest",
-    "express-handlebars":"latest",
-    "mongodb":"latest"
+    "bootstrap":"^3.3.6",
+    "express":"^3.14.3",
+    "express-handlebars":"^3.0.0"
   }
 }

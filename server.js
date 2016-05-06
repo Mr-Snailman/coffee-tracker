@@ -3,8 +3,6 @@
 
   var express = require('express');
   var exphbs = require('express-handlebars');
-  var mongo = require('mongodb');
-
   var app = express();
 
   var coffee = {
@@ -17,7 +15,7 @@
   app.set('view engine', 'handlebars');
 
   // Allow our app access to node_modules for bootstrap
-  // TODO change this
+  // This exposes everything
   app.use(express.static(__dirname + '/.'));
 
   // Display our home view
